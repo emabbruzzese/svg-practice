@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#eaf6fb"/>
+  <circle cx="650" cy="100" r="45" fill="#ffd93b"/>
+  <path d="M0 480 Q200 460 400 480 T800 480 V600 H0 Z" fill="#8fce8f"/>
+
+  <!-- bicycle -->
+  <g stroke="#333" fill="none" stroke-width="6">
+    <circle cx="230" cy="430" r="70"/>
+    <circle cx="570" cy="430" r="70"/>
+    <path d="M230 430 L350 300 L470 300 L570 430"/>
+    <path d="M350 300 L400 430 L230 430"/>
+    <path d="M400 430 L470 300"/>
+    <path d="M350 300 L340 270"/>
+    <path d="M470 300 L480 265"/>
+    <path d="M480 265 L510 260"/>
+    <path d="M320 270 L360 270"/>
+    <path d="M400 430 L395 460"/>
+    <circle cx="400" cy="430" r="14"/>
+  </g>
+
+  <!-- pelican body -->
+  <ellipse cx="420" cy="230" rx="70" ry="50" fill="#f7f7f7" stroke="#ccc" stroke-width="2"/>
+  <path d="M360 220 Q330 180 350 150 Q360 130 385 140 Q370 170 375 215 Z" fill="#ececec" stroke="#ccc" stroke-width="2"/>
+
+  <!-- pelican head -->
+  <circle cx="360" cy="120" r="28" fill="#f7f7f7" stroke="#ccc" stroke-width="2"/>
+  <circle cx="352" cy="112" r="4" fill="#222"/>
+  <path d="M335 125 Q300 140 320 165 Q340 175 360 155 Z" fill="#f4a259" stroke="#c97b2d" stroke-width="2"/>
+  <path d="M335 128 Q315 148 330 160" fill="none" stroke="#c97b2d" stroke-width="2"/>
+
+  <!-- pelican leg pedaling -->
+  <path d="M410 275 L400 430 L425 445" fill="none" stroke="#f4a259" stroke-width="10" stroke-linecap="round"/>
+  <path d="M450 275 L470 350 L430 390" fill="none" stroke="#e08e3c" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- wing -->
+  <path d="M430 200 Q500 180 520 240 Q480 260 435 245 Z" fill="#dcdcdc" stroke="#bbb" stroke-width="2"/>
+
+  <!-- tail -->
+  <path d="M490 230 Q540 240 555 270 Q520 265 485 255 Z" fill="#ececec" stroke="#ccc" stroke-width="2"/>
+</svg>
